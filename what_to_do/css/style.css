@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eee;
+}
+
+.container{
+    min-width: 50vw;
+    min-height: 370px;
+    background-color: #973524;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    background:#100110 ;
+    box-shadow: 0px 5px 20px 5px #310331;
+}
+
+#top {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-task, #clear-all {
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 1.8px;
+    color: #EAF2EF;
+    text-align: center;
+    background-color: #973524;
+    /* background: #1d5a6e; */
+    margin: 9px;
+    margin-left: 0px;
+    font-weight: 430;
+    font-size: 1.1rem;
+    transition: 0.4s ease-in-out;
+}
+
+#clear-all{
+    background-color: rgb(95, 6, 24);
+}
+
+.task-container {
+    margin-top: 15px;
+    /* border-top: solid rgb(220, 117, 117) 0.11px; */
+}
+
+h2 {
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 5px 5px 5px 0px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.task-text {
+    width: 80%;
+    padding: 3px;
+    padding-left: 5px;
+    background: #100110;
+    border: none;
+    color: #eee;
+    font-weight: 350;
+    outline: none;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.task{
+    max-width: 38vw;
+    margin-right: 0px;
+}
+
+#new-text-input {
+    margin-top: 5.55px;
+    padding: 3px;
+    outline: none;
+    border: none;
+    border-bottom: solid #999 1px;
+    width: 80%;
+    color: white;
+    font-size: 1.125rem;
+    background: #100110;
+    transition: 0.3s ease-in-out
+}
+
+#confirm {
+    width: 17%;
+    padding: 5.8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ba402b;
+}
+
